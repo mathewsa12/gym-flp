@@ -43,7 +43,8 @@ googleapis-common-protos==1.57.0
 gpustat==1.0.0
 greenlet==2.0.1
 grpcio==1.50.0
-gym==0.21.0
+#gym==0.21.0
+gym @ git+https://github.com/Pythoniasm/gym-fork.git@f889381f2613faac0c1497cebf0367e9fd505f5d#egg=gym
 -e git+https://github.com/BTHeinbach/gym-flp.git@371aad2e14a833226a5f79721e8f3efe143a7d0c#egg=gym_flp
 gym-notices==0.0.8
 idna==3.4
